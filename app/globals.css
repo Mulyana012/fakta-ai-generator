@@ -1192,3 +1192,175 @@ footer {
     font-size: 10px;
   }
 }
+/* ================================
+   PREMIUM BUTTON SYSTEM
+   ================================ */
+
+.copy-all,
+.copy-content,
+.scene-copy {
+  appearance: none;
+  border: 1px solid #e4e4ef;
+  background: #ffffff;
+  color: #35334a;
+  min-height: 42px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease,
+    color 0.18s ease;
+  box-shadow: 0 5px 16px rgba(40, 30, 80, 0.06);
+}
+
+.copy-all span,
+.copy-content span,
+.scene-copy span {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Hover */
+.copy-all:hover,
+.copy-content:hover,
+.scene-copy:hover {
+  border-color: #c9c4f8;
+  background: #f8f7ff;
+  color: #5b50c8;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.10);
+}
+
+/* Saat ditekan */
+.copy-all:active,
+.copy-content:active,
+.scene-copy:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 3px 9px rgba(40, 30, 80, 0.08);
+}
+
+/* Tombol Copy Semua */
+.copy-all {
+  min-width: 125px;
+}
+
+/* Tombol Copy Konten */
+.copy-content {
+  min-width: 125px;
+}
+
+/* Tombol Copy Scene */
+.scene-copy {
+  margin-top: 12px;
+  width: fit-content;
+}
+
+/* ================================
+   IMAGE PROMPT
+   ================================ */
+
+.image-prompt {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #e8e6f5;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #faf9ff, #ffffff);
+}
+
+.image-prompt > strong {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 9px;
+  color: #5548c7;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.image-prompt p {
+  margin: 0;
+  color: #626579;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* Tombol prompt */
+.image-prompt .scene-copy {
+  margin-top: 12px;
+}
+
+/* ================================
+   LANGKAH SELANJUTNYA
+   ================================ */
+
+.video-next-step {
+  margin-top: 14px;
+  padding: 13px 14px;
+  border-radius: 13px;
+  background: #f5f8ff;
+  border: 1px solid #e1e8ff;
+  color: #4d5570;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.video-next-step b {
+  color: #4f46c8;
+  font-size: 11px;
+}
+
+.video-next-step p {
+  margin: 5px 0 0;
+  color: #72778a;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* ================================
+   MOBILE
+   ================================ */
+
+@media (max-width: 640px) {
+  .resultbar {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .copy-all {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .result-card-head {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .copy-content {
+    width: 100%;
+    min-height: 42px;
+  }
+
+  .scene-copy {
+    width: 100%;
+    min-height: 42px;
+  }
+
+  .image-prompt {
+    padding: 14px;
+    border-radius: 14px;
+  }
+}
