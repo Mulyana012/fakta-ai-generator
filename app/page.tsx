@@ -493,6 +493,35 @@ ${s.narration}`,
   <span>▣</span>
   {copied === `Scene ${i + 1}-${s.scene}` ? "Tersalin!" : "Copy Scene"}
 </button>
+                      <div className="image-prompt">
+  <strong>🖼️ PROMPT GAMBAR</strong>
+  <p>{s.visual}</p>
+
+  <button
+    type="button"
+    className="scene-copy"
+    onClick={() =>
+      cp(
+        s.visual,
+        `Prompt Gambar ${i + 1}-${s.scene}`
+      )
+    }
+  >
+    <span>▣</span>
+    {copied === `Prompt Gambar ${i + 1}-${s.scene}`
+      ? "Tersalin!"
+      : "Copy Prompt Gambar"}
+  </button>
+
+  <div className="video-next-step">
+    🎬 <b>Langkah Selanjutnya</b>
+    <p>
+      Setelah gambar selesai dibuat, gunakan gambar tersebut
+      untuk generate ke AI Video. Upload gambar yang sudah
+      dibuat sebagai referensi untuk menghasilkan video.
+    </p>
+  </div>
+</div>
                     </div>
                   </div>
                 ))}
