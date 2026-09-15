@@ -516,7 +516,7 @@ ${s.narration}`,
   <div className="video-next-step">
     🎬 <b>Langkah Selanjutnya</b>
     <p>
-      Salin prompt diatas, gunakan situs google flow untuk
+      Salin prompt di atas, gunakan situs Google Flow untuk
       menghasilkan gambar. Upload gambar yang sudah
       dibuat sebagai referensi untuk menghasilkan video.
     </p>
