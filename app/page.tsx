@@ -523,7 +523,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand">✦ FAKTA AI</div>
-        <span> Version 1.1.0 © 2026 DEFAYA AI CREATOR. All rights reserved.</span>
+        <span> Version 1.1.0 © 2026 DEFAYA CREATOR. All rights reserved.</span>
       </footer>
     </main>
   );
