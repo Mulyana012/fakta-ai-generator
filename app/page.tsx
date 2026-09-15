@@ -493,7 +493,7 @@ ${s.narration}`,
   <span>▣</span>
   {copied === `Scene ${i + 1}-${s.scene}` ? "Tersalin!" : "Copy Scene"}
 </button>
-                      <div className="image-prompt">
+   <div className="image-prompt">
   <strong>🖼️ PROMPT GAMBAR</strong>
   <p>{s.visual}</p>
 
