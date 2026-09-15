@@ -523,7 +523,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand">✦ FAKTA AI</div>
-        <span>Generator Konten Fakta Unik • ©copywriter defaya store</span>
+        <span> Version 1.1.0 © 2026 DEFAYA AI CREATOR. All rights reserved.</span>
       </footer>
     </main>
   );
