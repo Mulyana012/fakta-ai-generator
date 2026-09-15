@@ -516,8 +516,8 @@ ${s.narration}`,
   <div className="video-next-step">
     🎬 <b>Langkah Selanjutnya</b>
     <p>
-      Setelah gambar selesai dibuat, gunakan gambar tersebut
-      untuk generate ke AI Video. Upload gambar yang sudah
+      Salin prompt diatas, gunakan situs google flow untuk
+      menghasilkan gambar. Upload gambar yang sudah
       dibuat sebagai referensi untuk menghasilkan video.
     </p>
   </div>
