@@ -474,6 +474,25 @@ export default function Home() {
                       <small>
                         <b>Narasi:</b> {s.narration}
                       </small>
+                      <button
+  type="button"
+  className="scene-copy"
+  onClick={() =>
+    cp(
+      `SCENE ${s.scene}
+
+VISUAL:
+${s.visual}
+
+NARASI:
+${s.narration}`,
+      `Scene ${i + 1}-${s.scene}`
+    )
+  }
+>
+  <span>▣</span>
+  {copied === `Scene ${i + 1}-${s.scene}` ? "Tersalin!" : "Copy Scene"}
+</button>
                     </div>
                   </div>
                 ))}
