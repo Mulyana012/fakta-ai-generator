@@ -1350,13 +1350,17 @@ footer {
   }
 
   .copy-content {
-    width: 100%;
-    min-height: 42px;
+  width: fit-content;
+  min-height: 38px;
+  padding: 9px 14px;
+  font-size: 11px;
   }
 
   .scene-copy {
-    width: 100%;
-    min-height: 42px;
+  width: fit-content;
+  min-height: 38px;
+  padding: 9px 14px;
+  font-size: 11px;
   }
 
   .image-prompt {
